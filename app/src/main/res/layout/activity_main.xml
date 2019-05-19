@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainActivityRl"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainActivityTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prueba Espresso"
+        android:contentDescription="elemento de texto"
+        android:hint="texto hint"/>
+
+    <EditText
+        android:id="@+id/mainActivityEt"
+        android:layout_below="@+id/mainActivityTv"
+        android:layout_width="wrap_content"
+        android:hint="Introduce tu Edad"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/mainActivityBt"
+        android:layout_below="@+id/mainActivityEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
